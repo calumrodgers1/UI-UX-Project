@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+#topbar
+{
+background-color: #757575;
+height: 30px;
+width: 100%;
+color: red;
+}
+body
+{
+background-color: white;
+}
+#colorfullboxes {
+display:flex;
+flex-direction: row;
+}
+#container
+{
+  width: 70%;
+  margin: 0px auto;
+  flex:1;
+
+}
+#header
+{
+height:80px;
+background-color:#FEFEFE;
+} 
+#header img
+{
+height: 80px;
+}
+#header ul
+{
+float: right;
+margin-top: 25px; 
+}
+#header ul li
+{
+display: inline;
+margin-right: 10px;
+}
+#header ul li a
+{
+color: #777777;
+text-decoration:none;
+font-size:18px;
+}
+#banner img
+{
+width: 70%;
+padding-bottom: 20px;
+align-self: center;
+
+}
+#content1
+{
+background-color: #707070;
+padding:0.5rem;
+margin-right:1rem;
+text-align: center;
+color: white;
+}
+#content2
+{
+
+background-color: #777777;
+padding:0.5rem;
+margin-right:1rem;
+text-align: center;
+color: white;
+
+}
+#content3{
+background-color: #777777;
+padding:0.5rem;
+text-align: center;
+color: white;
+}
+
+
+margin-top: 15px;
+width: 60%;
+
+float: left;
+
+#bottom2
+{
+margin-top: 15px;
+width: 40%;
+
+float:right;
+}
+
+#bottom1
+{
+margin-top: 20px;
+text-align: center;
+}
+
+#bottom1 h2
+{
+color: black;
+margin-left: 20px;
+margin-right: 8px;
+margin-bottom: 20px;
+}
+
+/* #bottom2
+{
+color: black;
+margin-top: 20px;
+float: left;
+} */
+
+#bottom3
+{
+color: black;
+margin-top: 20px;
+text-align: center;
+}
+
+#bottom2 p
+{
+color: black;
+margin-left: 20px;
+margin-right: 8px;
+}
+
+#bottom3 a
+{
+margin-left: 20px;
+color: rgb(94, 206, 20);
+}
+
+#bottom3 h2
+{
+margin-left: 20px;
+margin-bottom: 20px;
+color: black;
+}
+
+#bottom4 h2
+{
+color: black;
+margin-left: 20px;
+}
+#footer
+{
+width: 100%;
+height: 60px;
+background-color: #4d4d4d;
+clear: both;
+}
+#footer ul
+{
+float: left;
+margin-top: 25px;
+}
+#footer ul li
+{
+display: inline;
+margin-right: 25px;
+}
+#footer ul li a
+{
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-size:18px;
+}
+#footer p
+{
+color:white;
+float: right;
+margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #colorfullboxes {
+    flex-direction: column;
+    }
+    #content1
+{
+margin-right:0;
+margin-bottom:1rem;
+}
+#content2
+{
+  margin-right:0;
+  margin-bottom:1rem;
+}
+#bottom1 {
+  margin-top: 15px;
+  width: 100%;
+  float: none;
+  background-color: #1b4672;
+  padding: .75rem;
+  color: white;
+  
+}
+#bottom1 h2 {
+  color: white;
+  
+}
+#bottom2
+{
+margin-top: 15px;
+width: 100%;
+float:none;
+}
+#footer ul
+{
+float: none;
+margin-top: 25px;
+}
+
+  }
